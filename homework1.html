@@ -9,18 +9,58 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="logo">
-            <img src="./img/netflix.png.jpeg">
-        </div>
-        <div>
-            <button type="button"> ADD MOVIE</button>
-        </div>
-    </div>
-    <h1> FIND YOUR MOIVE</h1>
-    <input type="text" placeholder="What do you want to watch?">
-    <button> SEARCH </button>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="./img/netflix.png.jpeg">
+            </div>
 
+            <div>
+                <button type="button"> ADD MOVIE</button>
+            </div>
+
+        </div>
+
+        <h1> FIND YOUR MOIVE</h1>
+        <form>
+
+            <input type="text" placeholder="What do you want to watch?">
+            <button> SEARCH </button>
+        </form>
+    </header>
+    <div class="menu-bar">
+        <nav>
+            <ul>
+                <li> <a href="1">ALL</a></li>
+                <li><a href="2">DOCUMENTARY</a></li>
+                <li><a href="3">COMEDY</a></li>
+                <li><a href="4">HORROR</a></li>
+                <li><a href="5">CRIME</a></li>
+            </ul>
+        </nav>
+        <form>
+            <label for="sport-by"></label>
+            <select name="sport-by" id="SPOR-BY">
+            <option value="1">SORT 1</option>
+            <option value="2">SORT 2</option>
+            <option value="3">SORT 3</option>
+            <option value="4">SORT 4</option>
+            <option value="5">SORT 5</option>
+        </select>
+        </form>
+
+        <form>
+            <label for="release date"></label>
+            <select name="release date" id="RELEASE DATE">
+            <option value="1">SORT 1</option>
+            <option value="2">SORT 2</option>
+            <option value="3">SORT 3</option>
+            <option value="4">SORT 4</option>
+            <option value="5">SORT 5</option>
+        </select>
+        </form>
+
+    </div>
 
 </body>
 
