@@ -1,0 +1,51 @@
+@font-face {
+    font-family: joan;
+    font-weight: 600;
+    src: url(./fonts/Joan-Regular.ttf) format('ttf')
+}
+
+.title {
+    background-image: url(../img/night.jpg);
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    border: 100;
+    border-radius: 40px;
+    cursor: pointer;
+    padding: 50px 200px;
+
+}
+
+.center-img {
+    text-align: center;
+
+}
+
+@font-face {
+    font-family: oswald;
+    src: url(./Oswald/Oswald-VariableFont_wght.ttf) format('ttf');
+}
+
+.princ {
+    color: black;
+    text-indent: 2cm;
+    font-size: 20px;
+
+}
+
+@font-face {
+    font-family: bebas;
+    src: url(./bebas/BebasNeue-Regular.ttf) format('ttf');
+}
+ 
+.rose {
+     color: black;
+     text-align: right;
+     font-size: 20px;
+ }
+
+body {
+    background: #778899;
+    color: aliceblue;
+}
