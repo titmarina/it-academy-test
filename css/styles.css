@@ -1,0 +1,24 @@
+body {
+  margin: 20px;
+  padding: 20px;
+}
+
+.height {
+  padding: 60px;
+  height: 275px;
+  width: 225px;
+  
+  background:
+    url('../img/height.png') no-repeat left top,
+    url('../img/margin-top.png') no-repeat top center,
+    url('../img/right.png') no-repeat right top,
+    url('../img/margin-right.png') no-repeat right center,
+    url('../img/margin-botton.png') no-repeat right bottom,
+    url('../img/bottom.png')no-repeat center bottom,
+    url("../img/margin-left.png") no-repeat bottom left,
+    url('../img/ktft.png') repeat-y left center
+}
+
+.p{
+  padding: 20px;
+}
