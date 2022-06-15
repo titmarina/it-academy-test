@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+    border-style: none;
+}
+
+.heder {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: blue;
+    text-align: center;
+    padding: 20px;
+    background-color: #39a1d1;
+    max-width: max-content;
+    border-style: none;
+}
+
+
+.menu {
+    font-size: 16px;
+    text-align: left;
+    padding: 45px;
+    width: 15%;
+    background-color: yellow;
+    border-style: none;
+}
+
+h3 {
+    text-align: left;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.text {
+    padding: 10px;
+    border-style: none;
+}
+
+.footbal {
+    padding: 0px;
+    margin: 10px;
+    float: left;
+    border-style: none;
+}
+
+.center {
+    background-image: url('../img/ball.jpg');
+    background-position: right center;
+    background-repeat: repeat-y;
+    background-color: transparent;
+    border-style: none
+}
