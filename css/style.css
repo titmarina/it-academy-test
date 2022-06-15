@@ -1,0 +1,32 @@
+body {}
+
+.header {
+    padding: 20px;
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.sidebar {
+    padding: 20px;
+    width: 20%;
+    float: left;
+    background-color: yellow;
+}
+
+
+
+.center {
+    float: none;
+
+}
+
+.img{
+    float: left;
+    margin: 10px;
+}
+
+.footer {
+    clear: both;
+    background-color: cadetblue;
+    text-align: center;
+}
