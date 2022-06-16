@@ -1,32 +1,51 @@
-body {}
+body {
+    position: absolute;
+}
 
 .header {
     padding: 20px;
     background-color: cadetblue;
     text-align: center;
+    height: 60px;
 }
 
 .sidebar {
+    height: 600px;
     padding: 20px;
     width: 20%;
     float: left;
     background-color: yellow;
+    font-size: 22px;
 }
-
+ .name{
+    text-align: center;
+    font-size: 28px;
+    
+ }
 
 
 .center {
+    padding: 20px;
+    height: 600px;
     float: none;
+    background-color: bisque;
 
+    
 }
 
 .img{
     float: left;
     margin: 10px;
 }
+ .content{
+    padding: 10px;
 
+ }
 .footer {
+    padding: 10px;
     clear: both;
     background-color: cadetblue;
     text-align: center;
+    min-height: 80px;
 }
+
