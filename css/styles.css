@@ -1,58 +1,30 @@
-body {
-
+.head__data {
+    color: green;
 }
 
-.rating {
-/*position: relative;*/
-font-size: 40px;
-/*display: inline-block;*/
+.head__data-champion {
+    color: red;
 }
 
-.rating::before {
-   /* content: "★★★★★";
-    display: block;*/
-
+.head__link {
+    text-decoration: none;
+    color: rgb(12, 152, 245);
 }
 
-.rating_items {
-   /* position: absolute;*/
-   width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    display: flex;
-     /*flex-direction: row-reverse;*/
-    
-   
-    overflow: hidden;
+/*b::before {
+    content: url("../img/extref.png");
+     
+    Удалить комментарий! 
+    В HTNL закоментировать  <./img/extref (1).png">!!!!
+}*/
+
+.content {
+    color: rgb(12, 152, 245);
+    font-style: italic;
 }
 
-.rating__item {
-    position: absolute;
-   width: 0%;
-    height: 0%;
-    opacity: 0;
-    visibility: hidden;
-    top: 0;
-    left: 0;
-
-}
-
-.rating__label {
- flex: 0 0 20%;
- height: 100%;
- cursor: pointer;
- /*color: orange;*/
-}
-
-.rating__label::before {
-    content: "★";
-    display: block;
-    transition: color 0.3s ease 0s;
-}
-
-.rating__label:hover,
-.rating__label:hover ~ .rating__label,
-.rating__label:checked ~ .rating__label:hover {
-    color: orange;
+.footer__link {
+    text-decoration: none;
+    color: rgb(12, 152, 245);
+    font-weight: bold;
 }
