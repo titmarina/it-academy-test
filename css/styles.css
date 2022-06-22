@@ -1,0 +1,30 @@
+.head__data {
+    color: green;
+}
+
+.head__data-champion {
+    color: red;
+}
+
+.head__link {
+    text-decoration: none;
+    color: rgb(12, 152, 245);
+}
+
+/*b::before {
+    content: url("../img/extref.png");
+     
+    Удалить комментарий! 
+    В HTNL закоментировать  <./img/extref (1).png">!!!!
+}*/
+
+.content {
+    color: rgb(12, 152, 245);
+    font-style: italic;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: rgb(12, 152, 245);
+    font-weight: bold;
+}
