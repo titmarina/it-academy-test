@@ -1,41 +1,21 @@
-body {
-
-}
+body {}
 
 .rating {
-position: relative;
-font-size: 40px;
-display: inline-block;
-/*visibility: hidden;*/
-}
-
-/* .rating::before {
-       display: block;
-
-}*/
-
-/*.rating__label {
- flex: 0 0 20%;
- height: 100%;
- cursor: pointer;
- color: orange;
-}*/
-
-
-
-div.icons::before{
     display: inline-block;
-    content: url('../img/star0.png');
 }
 
-/*.rating__label::before {
-   
-}*/
+.rating__icons {
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    background-image: url('../img/star0.png');
+}
 
-.rating__label:hover,
-.rating__label:hover ~ .rating__label,
-.rating__label:checked ~ .rating__label:hover {
-   /* color: orange;
-    background-image: url('../img/star0.png') no-repeat;*/
 
+.rating:hover .rating__icons {
+    background-image: url('../img/star1.png');
+}
+
+.rating__icons:hover ~ .rating__icons {
+    background-image: url('../img/star0.png');
 }
