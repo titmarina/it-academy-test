@@ -3,8 +3,12 @@ body {
     margin: 10px;
 }
 
-.select {
+.article {
     border: none;
+}
+
+.select {
+   border: none;
 }
 .input {
     display: inline-block;
