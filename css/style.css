@@ -1,8 +1,37 @@
+@media (max-width: 1200px) {
+    .text {
+        max-width: 970px;
+    }
+}
+
+@media (max-width: 992px) {
+    .text {
+        max-width: 750px;
+    }
+}
+
+@media (max-width: 767px) {
+    .text {
+        max-width: none;
+    }
+}
+
+.text {
+    display: inline;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.text_1 {
+    position: relative;
+    top: 480px;
+
+}
+
 .blok {
+    display: block;
     position: absolute;
-    margin: 20px 0px 0px;
-    padding: 0px;
-    list-style-type: none;
+
 }
 
 .blok li {
@@ -23,7 +52,7 @@
     display: block;
     margin-top: -28px;
     margin-left: -28px;
-    z-index: 5;
+    z-index: 4;
 }
 
 
@@ -31,14 +60,14 @@
     display: block;
     margin-top: -28px;
     margin-left: -28px;
-    z-index: 5;
+    z-index: 4;
 }
 
 .blok li a:hover img.blok__2 {
     display: block;
     margin-top: -28px;
     margin-left: -28px;
-    z-index: 5;
+    z-index: 4;
 }
 
 
@@ -46,7 +75,7 @@
     display: block;
     margin-top: -28px;
     margin-left: -28px;
-    z-index: 5;
+    z-index: 4;
 }
 
 .blok__1 {
@@ -78,5 +107,6 @@
     position: absolute;
     z-index: 2;
     bottom: -355px;
-    right: -300px;
+    right: -260px;
+    z-index: 2;
 }
