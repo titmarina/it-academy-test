@@ -1,0 +1,22 @@
+.items-video {
+    position: relative;
+
+    margin: 15px;
+}
+
+.items-play {
+    width: 500px;
+    height: 350px;
+    
+}
+
+.items-text {
+    margin: 15px;
+    font-size: 20px;
+    color: blue;
+}
+
+.SVG {
+stroke: brown;
+stroke-width: 10px;
+}
