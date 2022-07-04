@@ -1,0 +1,16 @@
+.icon-button {
+    background: transparent;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: .5s background;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.icon-button:hover {
+    background: var(--color-black-32);
+}

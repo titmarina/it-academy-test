@@ -1,0 +1,29 @@
+.header {
+    display: grid;
+    grid-template-columns: 110px 1fr repeat(2, max-content);
+    border-bottom: 1px solid var(--color-black-47);
+}
+
+.header__logo {
+    display: visible;
+}
+
+.header__search-voice {
+    margin-left: 8px;
+}
+
+.heade_controls {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: repeat(3, 20px);
+}
+
+.my-profile {
+    margin-left: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .header__logo {
+        display: visible;
+    }
+}
