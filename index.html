@@ -10,51 +10,45 @@
 </head>
 
 <body>
-    <div>
-        <h3 class="title">Для публикации вашей статьи заполните, пожалуйста, следующую форму:</h3>
-    </div>
 
-    <div>
-        <label class="article">Название статьи:
-            <input type="text">
-        </label>
+    <form class="container">
+        <h3>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</h3>
+        <div class="control">
+            <label class="label" for="article">Название статьи:</label>
+            <input type="text" id="article">
+        </div>
+        <div class="control">
+            <label class="label" for="select">Рубрика: </label>
+            <select id="select">
+                <option>Программирование</option>
+                <option>WEB-дизайн</option>
+                <option>FrontEnd</option>
+                <option>JavaScript</option>
+            </select>
+        </div>
+        <div class="control">
+            <label class="label" class="radio">Публикация:</label>
+            <input type="radio" value="1" id="radio-1">
+            <label for="radio-1">На сайте</label>
 
+            <input type="radio" value="1" id="radio-2">
+            <label for="radio-2">На сайте</label>
+
+            <input type="radio" value="1" id="radio-3">
+            <label for="radio-3">На сайте</label>
+        </div>
+        <div class="control">
+            <label class="label" for="comments">Разрешить комментарий:</label>
+            <input type="checkbox" id="comments">
+        </div>
         <div>
-            <label class="select">Рубрика:
-                <select class="select_1">
-                    <option>Программирование</option>
-                    <option>WEB-дизайн</option>
-                    <option>FrontEnd</option>
-                    <option>JavaScript</option>
-                </select>
-            </label>
+            <label for="text">Текст статьи</label>
+            <div>
+                <textarea id="text"></textarea>
+            </div>
         </div>
-
-        <div class="input">
-            <label class="radio">Публикация:
-              
-                        <input type="radio" value="1">на сайте
-                    
-                   <input type="radio" value="2">в журнале
-                    <input type="radio" value="3">на сайте и в журнале
-                
-            </label>
-        </div>
-
-        <div>
-
-            <form class="get" method="get">Разрешить комментарий:
-                <input type="checkbox">
-            </form>
-        </div>
-
-        <div>
-            <label>Текст статьи:
-
-                <input type="border">
-                <input class="sumbit" type="submit" value="Опубликовать">
-            </label>
-        </div>
+        <input class="sumbit" type="submit" value="Опубликовать">
+    </form>
 
 </body>
 

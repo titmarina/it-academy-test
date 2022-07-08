@@ -3,13 +3,18 @@ body {
     margin: 10px;
 }
 
-.article {
-    border: none;
+.control {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.select {
-   border: none;
+.label {
+    min-width: 176px;
 }
-.input {
-    display: inline-block;
+
+@media screen and (max-width: 768px) {
+    .label {
+        display: block;
+        width: 100%;
+    }
 }
