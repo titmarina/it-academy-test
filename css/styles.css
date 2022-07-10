@@ -1,32 +1,58 @@
+@media all and (max-width: 1600px) {
+    div {
+        width: 1140px;
+    }
+}
+
+@media all and (device-width: 1140px) {
+    div {
+        width: 768px;
+    }
+}
+
+@media all and (device-width: 768px) {
+    div {
+        width: 320px;
+    }
+}
+
 body {
     font-family: sans-serif;
     border-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-.heder {
+.title {
+    height: 80px;
     font-family: sans-serif;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 19px;
     color: blue;
     text-align: center;
-    padding: 20px;
     background-color: #39a1d1;
-    max-width: max-content;
     border-style: none;
+    padding: 5px;
 }
 
 
-.menu {
-    font-size: 16px;
-    text-align: left;
-    padding: 45px;
-    width: 15%;
+.sidebar {
+    padding: 80px;
+    width: 20%;
     background-color: yellow;
     border-style: none;
 }
 
-h3 {
+.menu-items {
+    margin: -50px;
+    font-size: 16px;
     text-align: left;
+}
+
+h3 {
+    margin: -54px;
+    text-align: left;
+    height: 104px;
 }
 
 h2 {
@@ -36,24 +62,44 @@ h2 {
     font-size: 30px;
 }
 
-
+.container {
+    display: flex;
+    flex-grow: 1;
+}
 
 .text {
-    padding: 10px;
+    padding: 60px;
     border-style: none;
 }
 
-.footbal {
-    padding: 0px;
+.img {
+    display: flex;
+    position: absolute;
+    padding: 49px;
     margin: 10px;
     float: left;
     border-style: none;
 }
 
-.center {
+.content {
+    display: flex;
     background-image: url('../img/ball.jpg');
     background-position: right center;
     background-repeat: repeat-y;
     background-color: transparent;
     border-style: none
+}
+
+.button {
+    width: 140px;
+    height: 70px;
+    position: fixed;
+    left: 83%;
+    top: 6%;
+    z-index: 101;
+    color: rgb(87, 36, 107);
+    border-style: solid;
+    background-color: rgb(119, 188, 119);
+    text-decoration: underline;
+
 }
